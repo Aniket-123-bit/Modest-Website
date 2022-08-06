@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .main-container {
+    margin: 0rem 2.5rem 0rem 2.5rem;
+    /* border: 1px solid red; */
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  h3 {
+    color: white;
+  }
+  
+  h2,
+  a {
+    color: lightslategray;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .logo {
+    margin-left: 1.2rem;
+    font-size: 1.45em;
+  }
+  
+  .main-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-top: 5px;
+  }
+  .logo a,
+  .main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .main-nav a {
+    color: white;
+    font-size: 0.99em;
+  }
+  
+  .main-nav a:hover {
+    color: white;
+  }
+  
+  .header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    /* border: 1px solid white; */
+    background-color: black;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sec1 {
+    width: 100%;
+    height: 100vh;
+    background: url("./assets/backgroundImg.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+  }
+  
+  .title-text {
+    /* border: 1px solid red; */
+    width: 45rem;
+    margin-left: 15rem;
+    padding-top: 8rem;
+    color: white;
+    font-weight: 100;
+  }
+  
+  .desc1 {
+    color: white;
+    font-weight: 100;
+    /* border: 1px solid green; */
+  }
+  
+  .welcome-text {
+    font-size: 2rem !important;
+    color: white;
+  }
+  .btn-contain {
+    margin-top: 1.5rem;
+    width: 15rem;
+    height: 2rem;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn {
+    height: 2rem;
+    color: white !important;
+  }
+  
+  .btn-more {
+    background-color: aqua;
+    border: none;
+  }
+  .btn-tour {
+    border: 1px solid white;
+    background-color: none !important;
+  }
+  
+  /* styling for 2nd section  */
+  .about-modset {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 15rem 0rem 15rem;
+  }
+  
+  .col1 {
+    width: 400px;
+    /* border: 1px solid red; */
+  }
+  .col2 {
+    width: 420px;
+    /* border: 1px solid green; */
+  }
+  
+  #col2-head {
+    font-size: 1rem !important;
+  }
+  
+  #num {
+    background-color: darkturquoise;
+    /* border: 1px solid green; */
+  }
+  .team-modset {
+    width: 67%;
+    margin: 1rem 15rem 10rem 15rem;
+    /* border: 1px solid rebeccapurple; */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 225px;
+  }
+  .container1 {
+    margin: 1rem 2rem 5rem 1rem;
+  }
+  
+  .lovely-text {
+    margin-left: 15rem;
+  }
+  .image-gallery {
+    background-color: #2e3542 !important;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 1rem 2rem 5rem 15rem;
+    /* border: 1px solid green; */
+  }
+  
+  .todo-contain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem 2rem 5rem 15rem;
+    width: 67%;
+  }
+  .todo-tilte {
+    margin-left: 15rem;
+  }
+  
+  .gal {
+    width: 220px;
+  }
+  
+  .features-contain {
+    background-color: #2e3542;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+    margin: 1rem 2rem 5rem 15rem;
+    /* border: 1px solid red; */
+  }
+  
+  #featere-title {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .features-contain {
+    width: 100%;
+    background-color: #2e3542 !important;
+  }
+  
+  .feat-title {
+    margin-left: 15rem;
+  }
+  
+  .in-touch-title {
+    margin-left: 15rem;
+  }
+  
+  .contact-info {
+    margin: 1rem 2rem 5rem 15rem;
+    width: 67%;
+  }
+  
+  .info-col1 {
+    width: 50%;
+  }
+  
+  .form-main {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    /* border: 1px solid red; */
+  }
+  .info-col2 {
+    position: absolute;
+    top: 4020px;
+    right: 150px;
+    width: 500px;
+    background-color: white;
+    /* border: 1px solid red; */
+    /* margin: 2rem !important; */
+  }
+  
+  .form-inputs {
+    /* border: 1px solid green; */
+    width: 200px;
+    height: 5rem;
+    margin-left: 1rem;
+    margin-right: 1.8rem;
+  }
+  
+  .input-name {
+    height: 2rem !important;
+    width: 100%;
+    border: 1px solid green;
+  }
+  
+  .input-email {
+    height: 2rem !important;
+    width: 12.2rem;
+    border: 1px solid green;
+  }
+  .message-input {
+    width: 90%;
+    height: 100px;
+    margin: 1rem;
+    /* border: 1px solid green; */
+  }
+  .inputs-box {
+    background-color: rgb(245, 241, 241);
+    /* border: 1px solid green; */
+  }
+  
+  .msg-title {
+    margin-left: 1rem;
+  }
+  .send-btn {
+    margin-left: 1rem;
+    background-color: blue;
+    color: white;
+    height: 2rem;
+    border: none;
+    padding: 0.25rem;
+  }
+  
+  
+  .footer-contain{
+    background-color: #2e3542;
+    height: 3rem;
+    color: white;
+  }
+  
+  .footer-main {
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem 5rem 15rem;
+    padding-top: 1rem;
+  }
+  /* ================================= 
+    Media Queries
+  ==================================== */
+  /* 
+  @media (min-width: 769px) {
+    .header,
+    .main-nav {
+      display: flex;
+    }
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .sec1 {
+    width: 100%;
+    height: 100vh;
+    background: url("./assets/backgroundImg.jpeg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+  }
+  
+  @media (min-width: 1025px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .sec1 {
+      width: 100%;
+      height: 100vh;
+      background: url("./assets/backgroundImg.jpeg");
+      background-size: cover;
+      background-position: center;
+      text-align: left;
+    }
+    .content {
+      color: black;
+    }
+    .content h1 {
+      font-size: 60px;
+    }
+    .cn:hover {
+      background-color: #fff;
+    }
+    .column {
+      float: left;
+      padding: 1px;
+      background-color: white;
+    }
+  
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .menu {
+      width: 25%;
+    }
+  
+    .content {
+      width: 75%;
+    }
+  
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .menu li {
+      padding: 1px;
+      margin-bottom: 1px;
+      background-color: #33b5e5;
+      color: #ffffff;
+      height: 25px;
+      width: 25px;
+    }
+  
+    .menu li:hover {
+      background-color: #0099cc;
+    }
+  
+    .column {
+      float: left;
+      width: 25%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+  
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+  
+    .container {
+      padding: 0 16px;
+    }
+  
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  
+    .title {
+      color: grey;
+    }
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: gray;
+    overflow: auto;
+  }
+  .gallery {
+    margin: 5px;
+    border: 1px solid gray;
+    float: left;
+    width: 330px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .footer {
+    text-align: center;
+    padding: 3px;
+    background-color: lightgrey;
+    color: white;
+    margin: auto;
+    border: 1px solid gray;
+  } */
